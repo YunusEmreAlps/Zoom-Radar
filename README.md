@@ -2,21 +2,22 @@
 
 An optimized Python script that retrieves comprehensive participant reports for all instances of a Zoom meeting using the Zoom REST API. This tool is ideal for educators and administrators who need detailed attendance tracking.
 
-> Requires Zoom account with **Pro** plan or higher and **REST API** enabled.
-> Requires Python 3.7+.
-
 ## Features
 
-- ✅ **Object-oriented design** with proper separation of concerns
-- ✅ **Robust error handling** with detailed error messages
-- ✅ **Type hints** for better code maintainability
-- ✅ **Session management** for efficient API requests
-- ✅ **Automatic URL encoding** for meeting UUIDs
-- ✅ **Improved formatting** with aligned output
-- ✅ **Debug mode** for troubleshooting
-- ✅ **Graceful interrupt handling**
+This script retrieves comprehensive participant activity data including:
+
+- Join/Leave events
+- Camera on/off events  
+- Microphone mute/unmute events
+- Screen sharing events
+- Recording events
+- And more detailed activity logs
 
 ## Requirements
+
+- Python 3.7+
+- Zoom account with Pro plan or higher
+- Zoom REST API enabled
 
 ```bash
 pip install requests pyjwt
